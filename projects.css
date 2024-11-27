@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    color: #fff;
+    background-color: #000;
+    margin: auto;
+}
+
+
+.titleP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+
+}
+
+.textP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.frogger{
+    display: flex;
+    align-items: center;
+    margin-left: 210px;
+}
+
+.frogD{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 10px;
+
+    width: 340px;
+    height: 160px;
+    border-radius: 10px;
+    border: 1px solid rgb(2, 7, 173);
+}
+
+.pngfrog{
+    display: flex;
+    align-items: center;
+    margin-left: 580px;
+    margin-top: -155px;
+
+    border-radius: 10px;
+    border: 1px solid #000000;
+    width: 150px;
+    height: 150px;
+}
+
+.pngfrog:hover{
+    transform: scale(1.05);
+}
+
+.parallex{
+    display: flex;
+    align-items: center;
+    margin-left: 820px;
+    margin-top: -200px;
+}
+
+.paraD{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 810px;
+    margin-top: 10px;
+
+    width: 340px;
+    height: 160px;
+    border-radius: 10px;
+    border: 1px solid rgb(2, 7, 173);
+}
+
+.pngpara{
+    display: flex;
+    align-items: center;
+    margin-left: 1200px;
+    margin-top: -160px;
+
+    border-radius: 10px;
+    border: 1px solid #000000;
+    width: 150px;
+    height: 150px;
+}
+
+.pngpara:hover{
+    transform: scale(1.05);
+}
+
+.pointclick{
+    display: flex;
+    align-items: center;
+    margin-left: 210px;
+    margin-top: 90px;
+}
+
+.pointclickD{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 10px;
+
+    width: 340px;
+    height: 160px;
+    border-radius: 10px;
+    border: 1px solid rgb(2, 7, 173);
+
+}
+
+.pngpointclick{
+    display: flex;
+    align-items: center;
+    margin-left: 580px;
+    margin-top: -160px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    width: 150px;
+    height: 150px;
+}
+
+.pngpointclick:hover{
+    transform: scale(1.05);
+}
+
+.autumnfest{
+    display: flex;
+    align-items: center;
+    margin-left: 820px;
+    margin-top: -190px;
+}
+
+.autumnfestD{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 810px;
+    margin-top: 10px;
+
+    width: 340px;
+    height: 160px;
+    border-radius: 10px;
+    border: 1px solid rgb(2, 7, 173);
+}
+
+.pngautumnfest{
+    display: flex;
+    margin-left: 1200px;
+    margin-top: -160px;
+
+    border-radius: 10px;
+    border: 1px solid #000000;
+    width: 150px;
+    height: 150px;
+}
+
+.pngautumnfest:hover{
+    transform: scale(1.05);
+}
+
+.image{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 50%;
+    opacity: 0.3;
+    border: 1px solid black;
+    cursor: grab;
+}
+
+.image:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    transition-duration: 0.2s;
+}
+
+/* Gradient CSS */
+.blobP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 650px;
+    border-radius: 100%;
+    background-image: linear-gradient(#1100ff 10%, #030978);
+    filter: blur(250px);
+    transition: all 450ms ease-out;
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    transform: translate(calc(-50% + 15px), -50%);
+    z-index: -1;
+}

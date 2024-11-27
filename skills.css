@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    color: #fff;
+    background-color: #000;
+    margin: auto;
+}
+
+.html{
+
+    margin: auto;
+
+}
+
+.htmlT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.css{
+    margin: auto;
+}
+
+.cssT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.js{
+    margin: auto;
+}
+
+.jsT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ai{
+    margin: auto;
+}
+
+.aiT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.figma{
+    margin: auto;
+}
+
+.figmaT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -90px;
+}
+
+.what{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    /*border: 1px solid rgb(0, 7, 209 );*/
+    border: 1px solid rgb(2, 7, 173);
+    width: 120px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+.image{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 50%;
+    opacity: 0.3;
+    border: 1px solid black;
+    cursor: grab;
+}
+
+.image:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    transition-duration: 0.2s;
+}
+
+
+/* Gradient CSS */
+.blobS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 650px;
+    border-radius: 100%;
+    background-image: linear-gradient(#1100ff 10%, #030978);
+    filter: blur(250px);
+    transition: all 450ms ease-out;
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    transform: translate(calc(-50% + 15px), -50%);
+    z-index: -1;
+}
